@@ -6,6 +6,7 @@ import cn.xinzoo.scala.rational.Rational
 import cn.xinzoo.scala.twodimelem.{ArrayElement, Element, UniformElement}
 
 object Test {
+
   def main(args: Array[String]): Unit = {
     //val files = FileMatcher.filesContaining("E:\\workspace\\spark-myex\\src\\main\\scala\\cn\\xinzoo\\spark\\ex","scala")
     val elem:ArrayElement = new ArrayElement(Array("abc","def"))
@@ -14,6 +15,7 @@ object Test {
     e1.sayHello
 
     println(e1.height + ","+e1.width)
+
   }
 
   def containsNeg(nums:List[Int])={
